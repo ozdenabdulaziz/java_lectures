@@ -16,5 +16,25 @@ public class min_number_in_array {
         }
         System.out.println("Min number: " + min);
 
+        System.out.println("\n--------------------------\n");
+
+
+
+        int[] num1 = {43,123,1231,345,345,234,12323};
+
+        int min1 =num1[0];
+
+        for(int j = num1.length-1; j>=0; j--){
+
+            if(num1[j] < min){
+                min1 = num1[j];
+            }
+
+        }
+
+        System.out.println(min1);
+
+
+
     }
 }
