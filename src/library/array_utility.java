@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class array_utility {
 
+
+    // Returns the maximum number from an array of integer
     public static int max(int[] arr) {
         int max = arr[0];
         for (int each : arr) {
@@ -14,6 +16,7 @@ public class array_utility {
         return max;
     }
 
+    // Returns the minimum number from an array of integer
     public static int min(int[] arr) {
         int min = arr[0];
 
@@ -26,6 +29,7 @@ public class array_utility {
         return min;
     }
 
+    // combines two arrays of integers and return the new array
     public static int[] combineTwoArrays(int[] arr1, int[] arr2) {
         int[] arr3 = new int[arr1.length + arr2.length];
         int i = 0;
@@ -41,6 +45,7 @@ public class array_utility {
         return arr3;
     }
 
+    //sorts the array of integers in descending order
     public static int[] sort(int[] arr) {  // {2,1,3}
         Arrays.sort(arr);  // {1,2,3};
         int[] reversedArray = new int[arr.length];  // {3, 2, 1}
@@ -52,11 +57,14 @@ public class array_utility {
         return reversedArray;
     }   // sorts in descending order
 
+    //Replace the [ with { while printing the array
     public static String printArray(int[] arr){
         String str = Arrays.toString(arr);
         str = str.replace("[", "{").replace("]", "}");
         return str;
     }
+
+
 
 
 
