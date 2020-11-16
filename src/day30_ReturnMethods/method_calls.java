@@ -1,6 +1,9 @@
 package day30_ReturnMethods;
 
 import library.string_utility;
+import library.array_utility;
+
+import java.util.Arrays;
 
 
 public class method_calls {
@@ -22,7 +25,16 @@ public class method_calls {
         String result3 = string_utility.unique(str3);
         System.out.println(result3);
 
-    }
+        System.out.println("==========================================");
 
+        int[] array = {1, 0, -2, 30, 40, 500, -20, -50};
+
+        int[] descending = array_utility.sort(array);
+
+        System.out.println(Arrays.toString(descending));
+        System.out.println(array_utility.printArray(descending));
+
+
+    }
 
 }
