@@ -2,7 +2,7 @@ package library;
 
 import java.util.Arrays;
 
-public class array_utility {
+public class ArraysUtility {
 
 
     // Returns the maximum number from an array of integer

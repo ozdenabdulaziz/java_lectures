@@ -1,6 +1,6 @@
 package day30_ReturnMethods;
 
-import library.string_utility;
+import library.StringUtility;
 
 public class frequency_of_characters {
 
@@ -9,11 +9,11 @@ public class frequency_of_characters {
 
         String result = ""; //a3b4c2
 
-        String nonDup = string_utility.removeDuplicates(str);   // a b c
+        String nonDup = StringUtility.removeDuplicates(str);   // a b c
 
         for (int i = 0; i <= nonDup.length() - 1; i++) {
             char ch = nonDup.charAt(i);  //a
-            int count = string_utility.frequency(str, ch);   // 3 4 2
+            int count = StringUtility.frequency(str, ch);   // 3 4 2
             result += "" + ch + count;
         }
 
@@ -34,11 +34,11 @@ public class frequency_of_characters {
     public static String frequencyOfCharacters(String str) {
         String result = ""; //a3b4c2
 
-        String nonDup = string_utility.removeDuplicates(str);   // a b c
+        String nonDup = StringUtility.removeDuplicates(str);   // a b c
 
         for (int i = 0; i <= nonDup.length() - 1; i++) {
             char ch = nonDup.charAt(i);  //a
-            int count = string_utility.frequency(str, ch);   // 3 4 2
+            int count = StringUtility.frequency(str, ch);   // 3 4 2
             result += "" + ch + count;
         }
 

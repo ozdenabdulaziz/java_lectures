@@ -2,7 +2,7 @@ package library;
 
 import java.util.*;
 
-public class string_utility {
+public class StringUtility {
 
     // returns the frequency of given char from the given string, as int.
     public static int frequency(String str, char ch) {
@@ -58,11 +58,11 @@ public class string_utility {
     public static String frequencyOfCharacters(String str) {
         String result = ""; //a3b4c2
 
-        String nonDup = string_utility.removeDuplicates(str);   // a b c
+        String nonDup = StringUtility.removeDuplicates(str);   // a b c
 
         for (int i = 0; i <= nonDup.length() - 1; i++) {
             char ch = nonDup.charAt(i);  //a
-            int count = string_utility.frequency(str, ch);   // 3 4 2
+            int count = StringUtility.frequency(str, ch);   // 3 4 2
             result += "" + ch + count;
         }
 
@@ -97,11 +97,26 @@ public class string_utility {
 
 
     // verify if the string palindrome
-    public static boolean isPalindrome(String str){
+    public static boolean isPalindrome(String str) {
         return reverse(str).equalsIgnoreCase(str);
 
     }
 
+
+    // takes a sentence and word, then returns the frequency of the word
+    public static int frequencyOfWord(String sentence, String word) {
+        sentence = sentence.toLowerCase();
+        word = word.toLowerCase();
+
+        int frequency = 0;
+
+        while (sentence.contains(word)) {
+            sentence = sentence.replaceFirst(word, "");
+            frequency++;
+        }
+
+        return frequency;
+    }
 
 
 }
