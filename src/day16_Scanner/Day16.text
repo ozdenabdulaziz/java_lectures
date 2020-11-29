@@ -1,0 +1,98 @@
+Day16 		10/15/2020
+
+Topics: Scanner
+
+Package name: day16_Scanner
+
+Todays goals:
+	- Scanner methods to read Strings
+	- Applying Scanner more dynamically 
+
+-----------------------------------
+Warmup tasks:
+
+		1.  write a program for a rate calculator: RateCalculator
+            1. asks the user to enter a salary (double)
+            2. asks the user how many hours he/she works in a week (as int)
+            3. print the hourly rate of the employee
+
+            assume that one year has 52 weeks
+
+            hourRate = salary / (weeklyHour * 52)
+
+-----------------------------------
+
+Scanner:
+
+		next();	-->	Read one word, and returns it as a String.
+			if -->	multiple words are given, then only the first word before the spae is the value stored.
+
+		nextLine(); -->	Reading multiple words (you can have spaces between the words.) and nextLine(); will accept the 'enter' inputs.
+			-	The issue of nextLine(); accepts the enter input and not allowing you to correctly store your String.
+			-	The solution to this issue is to add an extra nextLine method, which is not stored to anything.
+
+		close(): --> This method will close your Scanner.
+
+Task-1:
+
+		Write a program that will ask the user to enter a browser type(firefox, chrome, safari, opera) handle case sensitivity
+
+		if a valid browser type is entered print "Browser_Type is Opening..."
+
+		if the given browser is not valid print "Browser_type is not a valid browser."
+
+
+Task-2:
+		
+		ask the user to enter their first name. then ask the user to enter their last name. then ask the user if they are current;y employed.
+
+		if the user is employed, aslo ask them what their salry is.
+
+		Print all the ingmation at the end:
+				full name is:	
+				employed :
+				salary:	
+
+Task-3:
+
+		Create a dynamic calculator 
+
+		ask user to enter two numbers and operator
+
+		ex:
+			enter nubember 1
+			5
+			enter number 2
+			10
+			enter operator
+
+			output = 5 + 10 =15
+
+Task-4:
+		
+		Count up some points based on the users input:
+
+		Ask the user how many people they line with?
+			if user lives with less than 2 people: add one points
+			if the user lives with 3-6 people: add two points 
+			if the user lives with more than 6 people: add three points:
+
+		Ask the user what city they live in?
+		Ask the user if the linve in downtown (yes or no)
+			if you live downtown, ask them have you thought about moving to the suburbs?
+			if no, minus one point
+
+		Ask the user their favorite animal
+		Ask the user how many pets they want?
+		Ask SSN?
+
+		Print everything and points
+
+
+
+
+
+
+
+
+
