@@ -1,0 +1,114 @@
+Day29
+11/13/2020
+
+Topic:	Custom Methods Intro	:	Void methods, Return methods
+			without parameter
+			With parameter
+
+Package name:	day29_Methods
+
+		
+		public 	static	void 	main	(	String[] arg	) {
+
+			statements;
+
+		}
+
+
+	Declaring Method:	Must be within class
+
+			AccessModifier specifier	returnTYPE	MethodName	(Parameter) {
+
+					statements;
+
+			}
+
+			AccessModifier:	public, rotected, default, private
+						FOR NOW ONLY USE PUBLIC
+					public:	open to the world
+
+
+			specifier: static, final, abstract, synchronized
+							FOR NOW ONLY USE STATIC
+						static: can be called through the class name
+
+						ClassName.MethodName
+						Arrays.toString()
+						Arrays.sort()
+
+
+			returnTyoe: void, any dataType
+						void:	method does not return any data
+
+			parameter:	any dataType
+
+
+
+Methods:	function grouping a series of code fragments
+
+		step1:	print hello 5 times	( for loop )
+		step2: 	print your name
+		step3: 	print hello 5 times ( for loop )
+		step4:	print your school name
+		step5:	print hello 5 times ( for loop )
+
+
+
+
+		Without parameter:	if all info are known for completing the functionality.
+
+
+		With parameter: additional information that's must needed for the method to complete th functionality
+
+				if method passes parameter, we MUST give argument to the method when we call it. 
+
+
+Task:
+		1. create a function that can print out the maximum number form any given integer array
+
+		2. create a function that can print out the minimum number form any given integer array
+
+		3. create a function that can print out the unique elements form the array
+
+		4. 
+			age, CitizenShip, isAlive
+
+		5.	create a function for the calculatopr
+					parameters:
+								int n1
+								int n2
+								char operator
+
+
+	    6. create a method that can add element into array and prints out
+	                addElement( {1,2,3}, 4)
+	                output:
+	                    {1,2,3,4}
+	                    
+	    7.
+	        arr1 = {1,2,3,4}
+	        arr2 ={5,6,7}
+	        {1,2,3,4,5,6,7}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
