@@ -7,6 +7,7 @@ public class ListIntro {
     public static void main(String[] args) {
 
         ArrayList<Integer> scores = new ArrayList<>();   // size:1
+//                                  When you see new keyword it means that it'a an object.
 
         scores.add(100);  // autoboxing   0
         scores.add(200);    //  1
@@ -21,6 +22,7 @@ public class ListIntro {
         groceryList.add("Water"); // 4
         groceryList.add("Milk"); // 5
         groceryList.add("Bread"); // 6
+
 
         groceryList.add(0, "Toilet Paper");  // 0
         groceryList.add(1, "Sanitizer");     //2
