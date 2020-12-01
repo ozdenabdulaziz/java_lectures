@@ -1,0 +1,85 @@
+Day10 
+
+Topics: if else statement
+
+
+Package name: day10_IfElseStatement
+
+
+warmup tasks:
+	
+	Task01: ValidTriangle 
+         A triangle is valid if the sum of all the three angles is equal to 180 degrees. Write a program that declares three integers as angles and check whether a triangle is valid or not.
+
+	Task02: MaximumNumber
+         write a java program that accepts three numbers and return the maximum number 
+                (assume that none of them are equal)
+
+	Task03: MinimumNumber
+         write a java program that accepts three numbers and return the minimum number
+                (assume that none of them)
+
+
+
+if & else statement: only if there are two possibilities/conditions (Not less Not more)
+
+	if(condition){
+			statement1;
+	}else{ // otherwise
+			statement2;
+	}
+
+	statement1: if the condition is true
+	statement2: if the condition is false
+
+
+afternoon: just reviews
+			
+				unary operators: -, +, --, ++
+
+						--, decreament, screases the value by 1
+
+						++, increment, increases it by 1
+
+						post vs pre:
+
+									pre: changes the value by 1 right away
+											++variable
+											--variable
+
+									post: first passes the current value, next changes the value by 1
+
+											variable++
+											variable--
+
+				short hand operators: =, +=, -=,*=, /=, %=
+
+									=:	
+										int a = 10;
+
+				relational operators: >,<, >=, <=, ==, !=
+
+				logical operators: ||, &&, !
+
+				if statement:
+
+						single if statement:
+
+						if & else statement:
+
+= VS ==:
+
+		=: assigning value to variables
+
+
+
+
+
+
+
+
+
+
+
+
+

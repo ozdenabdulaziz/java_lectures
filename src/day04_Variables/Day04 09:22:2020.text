@@ -1,0 +1,119 @@
+Day04 09/22/2020
+
+Topics: Variables continue
+		variable naming rules
+
+package name: day04_Variables
+
+Warmup tasks:
+
+Task02: Variables_Practice
+				declear the following variables
+							num1 = 100;
+							num2 = 10000;
+							num3 = 3.5;
+							num4 = 2.5f;
+							num5 = 999999999999;
+							num6 = 850000;
+
+				print each of the variables above on the console
+
+Task02: KgToPounds
+		write a program that can convert the given Kg to Pound and print the result
+			ex: 
+				if kg = 10;
+				output:
+					22.0462
+
+					Hint: 1 kg = 2.2 pounds
+
+Task03: CalculateCircle 
+	write a program that can calculate the area and permeter of the circle based on the given radius
+
+			Hind: Area of circle = r * r * PI
+				perimeter of circle = 2 * r * PI
+
+
+Task04: SalaryCalculator
+	write a program that can calculate the salary after based on the salary and tax rate
+			Ex: 
+				if salary = 100000
+					taxrate = 0.28
+
+					totalTax = salary * taxRate;
+
+					salary after tax = salary - totalTax
+
+
+declare Variables:
+		DataType variableName = Data;
+
+		variable naming rules: readable & meaningful
+								1. Must be UNIQUE ALL TIMES
+								2. need to start with letters(lover letters)
+								3. cannot have any special characters orher than _ and $
+								4. Can not be java reserved words.
+								5. we should apply camelCase, if variable contains more than one word. 
+
+								Salary After Tax
+
+								salaryAfterTax
+								salaryaftertax
+
+
+
+for numbers: byte, short, int, long, float, double
+
+	Integers(Whole) : int
+	Decimals	:	double
+
+char: for single characters
+		A, z, 1, !, $ v.s.
+
+
+boolean: True/False expressions.
+
+		10 > 20 ==> false
+		20 > 10 ==> true
+
+
+String: string of texts 
+		texts must be inside " ";
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

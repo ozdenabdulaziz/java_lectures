@@ -1,0 +1,139 @@
+Day 09  10/01/2020
+
+Topics: Logical Operators
+        Single If statement 
+
+
+Package Name: day09_IfStatement
+
+Warmup Tasks:
+
+    1. write a program that can check if the person is eligible to buy alcohol
+        Ex:
+            name = "James"
+            age = 19
+
+            output:
+                James is eligible to buy alcohol? 
+                    false
+
+
+    2. write a program that can check if the person is eligible to vote for 
+    Donald Trump or Joe Biden
+ 
+        Ex:
+            name = "John"
+            citizenShip = "USA"
+ 
+            output:
+                John is eligible to vote for Donald Trump or Joe Biden? 
+                    true
+
+
+>, <, >=, <=, ==, !=
+
+Logic Operators &&, ||, !
+
+
+    &&: and logic:
+
+        citizen:    "USA"
+        age"   :    15
+
+                citizen == "USA" && age >=15
+                  true           &&   false
+                             false
+
+                5 == 5 && 6 !=5 ;
+                  true &&  true;
+                        true
+
+                THE INLY TIME && RETURNS TRUE IS, IF ALL CONDITTION ARE TURE OTHERWISE ==> FALSE
+
+    ||: Ot logic ===> either
+
+                    true || false ==> true
+
+                    ture != false || false != false ==> ture
+
+
+                THE ONLY TIME OR LOGIC RETURNS FALSE IS, IF ALL CONDITTION ARE FALSE 
+                    OTHERWISE ==> TRUE
+
+    !=: LOGICAL NOT ==> Opposite
+                
+                    !true == false;
+                    !false == true;
+
+
+single if statements: 
+
+        if(boolean expression) {
+
+            codes
+
+        }
+
+            codes in if block only gets executed if the condition is true
+
+
+
+task: 
+    1. write a program that can check if the given number is odd or even
+        Ex:
+            number = 100;
+            output:
+                100 is even number
+            number = 101
+            output:
+                101 is odd number
+    2. write a program that can print out the maximum number between two numbers
+        Ex:
+            num1 = 20;
+            num2 = 30;
+            output:
+                30 is the maximum number
+            num1 = 20;
+            num2 = 20;
+            output:
+                both numbers are equal
+    3. write a program that can print out the minimum number between two numbers
+        Ex:
+            num1 = 20;
+            num2 = 30;
+            output:
+                20 is the minimum number
+
+
+
+Topics:
+
+        unary operators:     -, +, --, ++
+
+        relational :    >, <, >=, <=, ==, !=
+        
+        logical:        &&, ||, !
+        
+        single if:      if() {      }
+
+
+Tomorrow morning: We talk about else statement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

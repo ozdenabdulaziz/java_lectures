@@ -1,0 +1,103 @@
+Day02	09/18/2020
+Topics: Topic: main method
+		print statement
+
+WarmUp Taskks:
+
+	Task01: 
+		1.	Create a java project in IntelliJ named "Self_Practice" (If you haven't done it yet);
+		2.	Create a java project in IntelliJ named "RepliyIt_Tasks";
+
+		Make sure to set the compiler in both of those project.
+
+	Task02:
+		1.	Create a sub folder named Day02: in the folder "Java Programing B21";
+		2.	Go to Canvas --> Java Programing --> Modules --> Day02. Download the day02 pdf file and save it into the sub folder Day02
+		3.	Drink a cup if tea or coffee and be ready for a productive day.
+
+JavaPrograming2020_B21: for java class use only
+
+Self_Practice: for outside the class, self practice java
+
+ReplIt_Tasks: for repl.it tasks only.
+
+New Project Window: 
+		File ---> new---> Project
+
+New Project Mac:
+		File --> new --> Project.
+
+
+src: source fodler. used for stroring packages
+		for everyday' class, we create a seperate package.
+
+package: used for storing java files in organized manner. 
+		right click src --> new --> package
+
+		name rule in java: should start with lowercase
+							_is the only special charecter we can use. 
+
+
+rename: right click --> refector --> rename.
+
+class: java file, created under the package. 
+		right click package --> new --> java class
+
+		Where we will be writing our java code. within the body of the class.  {  }
+
+
+
+		naming rule in java: should start with uppercase,  
+							_is the only special charecter we can use. 
+
+main method: makes the class runable, runs it as java application.
+	
+				public static void main(String[] args) {
+						statements;
+
+				}
+
+print statement: prints the outputs to the console, each print statement prints on seperate line
+			System.out.println("messages goes here");
+
+
+Task: Hello Cybertek:
+		
+		Print:
+
+				1. Hello Cybertek
+				2. Hello Batch 21
+				3. My name is: your name
+				4. Gender: Your gender
+				5.I am from: your country
+
+Shortcuts:
+	main:
+		1.	type "psvm"
+		2.	hit enter
+				
+				or
+
+		1.	type: "main"
+		2.	hit enter
+
+	Print statement:
+		1. type "sout";
+		2. hit enter
+
+###			JAVA IS VERY VERY CASE SENSITIVE ( UPPER AND LOVER LETTER )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
