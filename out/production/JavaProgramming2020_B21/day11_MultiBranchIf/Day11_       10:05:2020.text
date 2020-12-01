@@ -1,0 +1,136 @@
+Day11_       10/05/2020
+
+Topics: 
+
+        Multi-Branch If
+        
+        Local Veriables
+        
+        Ternary
+
+
+package: day11_MultiBranchIf
+
+    Warmup tasks:
+        1. write a program that can find the number of days in a month
+            (Assume that Feb has 28 days)
+                Ex:
+                    month = 3
+                    output:
+                        31 days
+                    month = 9
+                    output:
+                        30 days
+        Hints: it cannot be done with if&else statement, you will need single if statements
+
+Single if statement:
+                
+                    if(conditon){
+                    code fragments;
+                    }
+
+                executing of code fragments depends on the cindition.
+
+if & else statement:    when there are only two option/posibilities, then we can use if&else
+
+                if (condition){
+                    code fragment
+                }else{ // otherwise
+                    code fragment2
+                }
+
+            code fragment1: only gets executed if condition is ture.
+            code fragment2: only gets executed if condition is false.
+
+
+Multi-Branch If:    when there are more than 2 option/posibilities or more
+
+                if(condition){
+                    statement   // gets executed if condition is ture
+                }else if(condition2){
+                    statement2  // gets executed if condition2 is ture
+                }else if(condition3){
+                    statement3 // gets executed if condition3 is ture
+                }else{
+                    statement4 // gets executed if  all previous conditions are false.
+
+                    ONLY ONE OF THE BLOCK GETS EXECUTED.    
+
+                                    }
+
+
+Tasks: 
+        Write a program that can rint out the name of the day based on the number. 1~7
+
+        number = 1
+            out: monday
+
+        number = 5
+            out: friday
+
+Tasks2: 
+        write a program that can print out the name of the month based on the number 1~12
+
+            number = 1;
+
+            output: 
+                    january
+
+Ternary: short cut of if statement
+
+        int num: 100;
+        String result = "";
+
+        if(num%2 == 0){
+            result = "Even";
+        }else{
+            result = "Odd";
+        }
+
+
+        ? means the if keyword
+        : means else keyword
+
+        :(condition)? means else if statement
+
+        variable = (condition) ? body : body
+        String result2 = (num%2 == 0)? "Even" : "Odd";
+
+
+Tasks: 
+        1. Write a program that can find the maximum number between two defferent numbers
+                first solution : if & else Statement 
+                second solution: do not use any if statement
+
+        2. Write a program that can find the minimum number between two defferent numbers
+                first solution : if & else Statement
+                second solution: do not use any if statement
+
+        3. Write a program that can find the maximum number between three defferent numbers
+                first solution : if & else statement        // multi- branch if
+                second solution: do not use any if statement        // do not use any if&else statement
+
+        4. Write a program that can find the minimum number between three defferent numbers
+                first solution : if & else statement        // multi- branch if
+                second solution: do not use any if statement        // do not use any if&else statement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

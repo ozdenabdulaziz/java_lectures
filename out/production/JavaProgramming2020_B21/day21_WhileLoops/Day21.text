@@ -1,0 +1,30 @@
+Day23
+
+10/28/2020
+
+Topics:	
+		do-while loop
+		branching statements
+		Nested loop Intro
+
+Package name:	day23_NestedLoop
+
+Warmup Tasks: 
+			frequencyOfWord:
+							1.	Write a program that can return the frequncy of the a woed from the sentence.
+
+								ex:	
+									sentence = "Java is programing language, I like to learn Java";
+									word = "Java";
+
+									output:
+											2
+
+							2.	Write a program that asks user to eter a string, if string started with uppercase and ends eith lowercase letter then print true, otherwise print false,
+
+								ex:	
+									input:	Cybertek
+									output:	true
+
+									intput:	CyberteK
+									output:	false
