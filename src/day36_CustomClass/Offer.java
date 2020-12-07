@@ -1,4 +1,4 @@
-package day_36CustomClass;
+package day36_CustomClass;
 
 public class Offer {
 

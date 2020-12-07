@@ -1,9 +1,8 @@
-package day_36CustomClass;
+package day36_CustomClass;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class BankOfAmerica { // Bank of America HAS An Employee
 

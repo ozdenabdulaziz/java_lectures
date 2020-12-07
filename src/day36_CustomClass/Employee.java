@@ -1,4 +1,4 @@
-package day_36CustomClass;
+package day36_CustomClass;
 
 import java.text.DecimalFormat;
 import java.time.LocalDate;
