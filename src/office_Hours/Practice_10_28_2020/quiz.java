@@ -11,4 +11,7 @@ public class quiz {
 
 
     }
+
+    public void setInfo(String licy, int i) {
+    }
 }
