@@ -1,6 +1,6 @@
 package day38_Statics.ScrumTask;
 
-public class Developer {
+public final class Developer {
 
     public String name, ID, jobTitle, companyName;
     public double salary;
@@ -17,12 +17,12 @@ public class Developer {
         this.gender = gender;
     }
 
-    public void coding(){
-        System.out.println(jobTitle+" "+name+" is coding");
+    public void coding() {
+        System.out.println(jobTitle + " " + name + " is coding");
     }
 
-    public void fixingBug(){
-        System.out.println(jobTitle+" "+name+" is crying");
+    public void fixingBug() {
+        System.out.println(jobTitle + " " + name + " is crying");
     }
 
 
@@ -36,7 +36,6 @@ public class Developer {
                 ", gender=" + gender +
                 '}';
     }
-
 
 
 }

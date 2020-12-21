@@ -1,6 +1,6 @@
 package day38_Statics.ScrumTask;
 
-public class Tester {
+public final class Tester {
 
     public String name, ID, jobTitle, companyName;
     public double salary;
@@ -15,12 +15,12 @@ public class Tester {
         this.gender = gender;
     }
 
-    public void smokeTesting(){
-        System.out.println(name+" is performing smoke testing");
+    public void smokeTesting() {
+        System.out.println(name + " is performing smoke testing");
     }
 
-    public void creatingTicket(){
-        System.out.println(name+" is creating ticket");
+    public void creatingTicket() {
+        System.out.println(name + " is creating ticket");
     }
 
 
