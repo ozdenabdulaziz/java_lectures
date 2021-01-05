@@ -15,13 +15,13 @@ public class PostPre {
         int x2 = 2;
 
         System.out.println( x2++); // 2
-        System.out.println(x2);
+        System.out.println(x2); // 3
 
         System.out.println("\n============================================\n");
 
         int x3 = 2;
         System.out.println(--x3); // 1
-        System.out.println(++x3); // 3
+        System.out.println(++x3); // 2
 
         System.out.println("\n============================================\n");
 

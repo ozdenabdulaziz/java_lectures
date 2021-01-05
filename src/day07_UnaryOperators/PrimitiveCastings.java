@@ -10,7 +10,7 @@ public class PrimitiveCastings {
 
       // int c = b; // casting must be done manually
 
-        int d = a; // implicit casting, automaically done
+        int d = a; // implicit casting, automatically done
 
         double d1 = 200.5;
         int i1 = (int) d1; //  200
