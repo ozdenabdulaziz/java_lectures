@@ -22,8 +22,12 @@ public class ExceptionHandling {
             Thread.sleep(5000);
 
         }catch (InterruptedException e){
-
+            System.out.println("This is a interruptedException");
+        } finally {
+            System.out.println("There is no interruptedException");
         }
+
+
 
         //
         try {
