@@ -40,7 +40,7 @@ public class String_FrequencyOfCharacters {
 
 
     public static void main(String[] args) {
-        System.out.println(FrequencyOfChars("Abdulaziz OZDEN"));
+        System.out.println(FrequencyOfChars("AAABBDDDEEEQQQAAA"));
     }
 }
 

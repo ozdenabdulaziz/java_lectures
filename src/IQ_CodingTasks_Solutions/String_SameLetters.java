@@ -43,7 +43,7 @@ same("abc",  "abb"); -> false:
     public static void main(String[] args) {
 
 
-        System.out.println(sameLetters("zizA", "aziz"));
+        System.out.println(sameLetters("zizA", "aziz"));        //
 
 
     }
