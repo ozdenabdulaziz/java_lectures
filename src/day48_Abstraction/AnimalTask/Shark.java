@@ -19,4 +19,6 @@ public final class Shark extends Animal implements Predator, Swimmable {
     public void swim() {
         System.out.println("Shar can swim 20 hours");
     }
+
+
 }
